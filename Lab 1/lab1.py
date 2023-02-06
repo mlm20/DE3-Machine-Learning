@@ -68,6 +68,6 @@ learning_rate = 0.01
 
 for epoch in range(500):
     output = sigm(X_train, W, B)
-    
+
     W += learning_rate * diff_W(X_train, output, Y_train, B, W).T
     B += learning_rate * diff_B(X_train, output, Y_train, B, W)

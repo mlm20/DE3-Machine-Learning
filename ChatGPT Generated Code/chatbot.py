@@ -20,7 +20,7 @@ pairs = [
     ],
     [
         r"sorry (.*)",
-        ["Its alright","Its OK, never mind"]
+        ["Its alright", "Its OK, never mind"]
     ],
     [
         r"quit",
@@ -30,4 +30,3 @@ pairs = [
 
 chatbot = Chat(pairs, reflections)
 chatbot.converse()
-

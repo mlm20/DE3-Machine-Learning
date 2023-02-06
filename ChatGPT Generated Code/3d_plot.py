@@ -21,9 +21,9 @@ f = lambdify((x, y), z, 'numpy')
 fig = plt.figure()
 ax = fig.add_subplot(111, projection='3d')
 
-# Create x,y values 
-x_vals = np.linspace(-10,10,15)
-y_vals = np.linspace(-10,10,15)
+# Create x,y values
+x_vals = np.linspace(-10, 10, 15)
+y_vals = np.linspace(-10, 10, 15)
 
 # Create x,y meshgrid
 X, Y = np.meshgrid(x_vals, y_vals)
@@ -40,5 +40,5 @@ ax.set_ylabel('y')
 ax.set_zlabel('z')
 plt.title('z = {}'.format(equation))
 
-#show the plot
+# show the plot
 plt.show()

@@ -25,7 +25,8 @@ def calculator():
                 break
         else:
             print("Invalid Input")
-            
+
+
 calculator()
 
 """

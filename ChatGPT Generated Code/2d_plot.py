@@ -9,7 +9,7 @@ equation = input("Enter a function of x (e.g. x^2 + 3x - 4): ")
 y = parse_expr(equation)
 f = lambdify(x, y, 'numpy')
 f_vec = np.vectorize(f)
-x_vals = np.linspace(-10,10,100)
+x_vals = np.linspace(-10, 10, 100)
 y_vals = f_vec(x_vals)
 
 plt.plot(x_vals, y_vals)
