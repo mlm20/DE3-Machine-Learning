@@ -43,5 +43,14 @@ Using the `Adam` optimiser, the accuracies were: 0.941, 0.858, and 0.941. This i
 ### Additional Hidden Layer
 
 #### Method
+An additional hidden layer was added to the neural network.
+#### Results
+This resulted in an accuracy of 0.857. This roughly the same as without the extra layer.
+
+### Additional Neurons
+
+#### Method
+The additional hidden layer was removed since it was ineffective. However the number of neurons in each layer was increased from 64 to 128.
 
 #### Results
+This resulted in an accuracy of 0.842. Hence adding additional neurons was also ineffective.
