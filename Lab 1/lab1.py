@@ -25,8 +25,6 @@ def sigm(X, W, B):
     return M
 
 # Update rules for weights and bias
-
-
 def diff_W(X, Z, Y, B, W):
     """
     Update function for weights
